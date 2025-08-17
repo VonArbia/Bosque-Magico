@@ -105,14 +105,14 @@ function preload() {
     imgCriaturas.push(loadImage(`./img/objetos/criaturas/${nomCriaturas[i]}.png`));
   }
   //sonidos
-  musica = loadSound('../sonido/musica.wav');
-  sonidoPop = loadSound('../sonido/sonido-pop.wav');
-  sonidoRebote = loadSound('../sonido/sonido-rebote.wav');
-  sonidoLeche = loadSound('../sonido/sonido-leche.wav');
-  sonidoHielo = loadSound('../sonido/sonido-hielo.wav');
-  sonidoLicuadora = loadSound('../sonido/sonido-licuadora.wav');
-  sonidoPajaros = loadSound('../sonido/pajaros.wav');
-  sonidoBrillitos=loadSound('../sonido/brillitos.wav');
+  musica = loadSound('../sonido/musica.mp3');
+  sonidoPop = loadSound('../sonido/sonido-pop.mp3');
+  sonidoRebote = loadSound('../sonido/sonido-rebote.mp3');
+  sonidoLeche = loadSound('../sonido/sonido-leche.mp3');
+  sonidoHielo = loadSound('../sonido/sonido-hielo.mp3');
+  sonidoLicuadora = loadSound('../sonido/sonido-licuadora.mp3');
+  sonidoPajaros = loadSound('../sonido/pajaros.mp3');
+  sonidoBrillitos=loadSound('../sonido/brillitos.mp3');
 }
 
 function setup() {
